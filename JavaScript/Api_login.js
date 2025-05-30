@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Conexión a MongoDB Atlas
-const uri = "mongodb+srv://joshua0902:Piolin09@clusterjnml.qgpkn.mongodb.net/?retryWrites=true&w=majority&appName=ClusterJNML";
+const uri = "mongodb+srv://DavidVera:david902@clusterjnml.qgpkn.mongodb.net/?retryWrites=true&w=majority&appName=ClusterJNML";
 mongoose.connect(uri);
 
 
